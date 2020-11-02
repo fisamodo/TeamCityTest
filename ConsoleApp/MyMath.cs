@@ -11,6 +11,10 @@ namespace Vsite.Pood.TeamCityTest
         public static double Squared(double x)
         {
             return x * x;
-        } 
+        }
+        public static long Squared(int x)
+        {
+            return x * x;
+        }
     }
 }
